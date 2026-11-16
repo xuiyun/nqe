@@ -1,0 +1,6 @@
+# DSH「提问模式」
+# 这一行同时激活宿主半边（提示词段落 + 本轮结束时的兜底追问 + 两条本机路由）
+# 和 package.json 里声明的 dsh.client 网页半边（输入框工具行的开关）。
+- insert:
+    - id: question-mode
+      name: 'dsh-question-mode'
