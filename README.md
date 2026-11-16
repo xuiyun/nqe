@@ -32,7 +32,7 @@ DSH 插件：让 AI 该问的时候问、该确认的时候确认，回答还能
 
 ### 压缩包
 
-在 [Releases](https://github.com/xuiyun/nqe/releases) 下载 `dsh-question-mode-1.11.2.tgz`，然后：
+在 [Releases](https://github.com/xuiyun/nqe/releases) 下载最新的 `dsh-question-mode-*.tgz`，然后：
 
 ```
 dsh plugin --profile desktop add <tgz 文件的绝对路径>
