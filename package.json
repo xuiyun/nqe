@@ -1,8 +1,8 @@
 {
   "name": "dsh-question-mode",
-  "version": "1.11.1",
+  "version": "1.11.2",
   "type": "module",
-  "description": "DSH 插件：给提问窗口换一套更顺手的皮 —— 可翻页、可跳过、能边选边打字贴图，还能让 AI 动手前先跟你对一遍理解。",
+  "description": "DSH 插件：让 AI 该问的时候问、该确认的时候确认 —— 不再用「任务完成」打发你，动手前也会先把理解说清楚；回答还能直接贴图。",
   "exports": {
     ".": "./index.js",
     "./client": "./client.js",
