@@ -1,0 +1,60 @@
+{
+  "name": "dsh-question-mode",
+  "version": "1.11.1",
+  "type": "module",
+  "description": "DSH 插件：给提问窗口换一套更顺手的皮 —— 可翻页、可跳过、能边选边打字贴图，还能让 AI 动手前先跟你对一遍理解。",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.png",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.png",
+    "README.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "slots",
+        "locale"
+      ],
+      "external": [
+        "react"
+      ]
+    }
+  },
+  "icon": "./icon.png",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "question",
+    "ask-user",
+    "ui"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Lynxiuy",
+    "url": "https://github.com/xuiyun"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xuiyun/nqe.git"
+  },
+  "homepage": "https://github.com/xuiyun/nqe#readme",
+  "bugs": {
+    "url": "https://github.com/xuiyun/nqe/issues"
+  }
+}
