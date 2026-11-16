@@ -2,7 +2,7 @@
 
 > **先看三行**
 > - 需要 **DSH**（DeepSeek Harness）带 Web 界面；插件是标准 bundle，装完**刷新页面**就能用，只改到宿主半边时才需要重启。
-> - 装的时候用 `dsh plugin --profile desktop add github:你的名字/nqe`（网页端把 `desktop` 换成 `web`）。
+> - 装的时候用 `dsh plugin --profile desktop add github:xuiyun/nqe`（网页端把 `desktop` 换成 `web`）。
 > - 关掉「提问窗口优化」就退回系统原生的提问卡，界面跟没装插件时一模一样 —— 随时能一键退回去。
 
 DSH 插件：**给提问窗口换一套更顺手的皮** —— 可翻页、可跳过、能边选边打字贴图，还能让 AI 动手前先跟你对一遍理解。
@@ -28,7 +28,7 @@ DSH 插件：**给提问窗口换一套更顺手的皮** —— 可翻页、可�
 ### 一、从 GitHub 装（推荐，跟版本走）
 
 ```
-dsh plugin --profile desktop add github:你的名字/nqe
+dsh plugin --profile desktop add github:xuiyun/nqe
 ```
 
 ### 二、本地目录装
